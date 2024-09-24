@@ -15,7 +15,7 @@ body{
     width: 35%;
     text-align: center;
     background-color: black;
-    
+   
     
 }
 #taskInput{
@@ -62,7 +62,35 @@ button:hover{
     font-size: 10px;
 }
 
+.remove-btn:hover{
+    background-color: #7d4545;
+}
+
 .completed{    /*this class is created by  javascript*/
     text-decoration: line-through;
     color: grey;
+}
+  /*class list*/
+ul{
+    list-style-type:none ;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+li{
+
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+li:hover{
+    background-color: #fff;
 }
