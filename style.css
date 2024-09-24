@@ -11,10 +11,11 @@ body{
 }
 .container{
     border: 2px solid aquamarine;
-    height: 40%;
-    width: 35%;
+    height: 36%;
+    width: 30%;
     text-align: center;
     background-color: black;
+    border-radius: 15px;
    
     
 }
@@ -34,7 +35,7 @@ body{
 } 
 
 div h1{
-    color: #ae6b6b;
+    color: #fff;
 }
 
 button{
@@ -46,7 +47,7 @@ button{
     cursor: pointer;
     margin-bottom: 20px;
     margin-top: 30px;
-    font-style: italic;
+    font-size: 15px;
 }
 button:hover{
     background-color: red;
