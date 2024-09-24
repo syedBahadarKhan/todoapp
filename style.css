@@ -14,10 +14,11 @@ body{
     height: 40%;
     width: 35%;
     text-align: center;
+    background-color: black;
     
     
 }
-#taskinput{
+#taskInput{
     width: 75%;
     padding: 10px;
     border-radius: 5px;
@@ -28,7 +29,7 @@ body{
     color: white;
 
 }
- #taskinput:focus{
+ #taskInput:focus{
     border-color: rgb(47, 116, 93) ;
 } 
 
