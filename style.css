@@ -14,7 +14,7 @@ body{
     height: 40%;
     width: 35%;
     text-align: center;
-    background-color: #000;
+    
     
 }
 #taskinput{
@@ -47,4 +47,21 @@ button{
     margin-top: 30px;
     font-style: italic;
 }
+button:hover{
+    background-color: red;
+}
 
+.remove-btn{      /*this class is created by  javascript*/
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.completed{    /*this class is created by  javascript*/
+    text-decoration: line-through;
+    color: grey;
+}
