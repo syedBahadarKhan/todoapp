@@ -3,7 +3,7 @@ function addTask(){
     var taskList = document.getElementById("taskList");
 
     //this condition control the empty string
-      if(!taskInput.value.trim()){
+      if(!   taskInput.value.trim()){
         return alert("todo can't be Empty")
       }
 
@@ -19,7 +19,7 @@ var removeBtn=documnet.createElement("button");
 removeBtn.textContent="Remove";
 removeBtn.className="remove-btn";
 removeBtn.onclick = function() {
-    taskList.removeChild("li");
+    taskList.removeChild(li);
 
 };
 
