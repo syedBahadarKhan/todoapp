@@ -1,5 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #86daf4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,9 +10,41 @@ body{
 
 }
 .container{
-    border: 2px solid aqua;
-    height: 30%;
-    width: 30%;
+    border: 2px solid aquamarine;
+    height: 40%;
+    width: 35%;
     text-align: center;
+    background-color: #000;
     
 }
+#taskinput{
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid aquamarine;
+    transition: border 0.3s;
+    outline: none;
+    background-color: #6b3636;
+    color: white;
+
+}
+ #taskinput:focus{
+    border-color: rgb(47, 116, 93) ;
+} 
+
+div h1{
+    color: #ae6b6b;
+}
+
+button{
+    padding:10px 20px;
+    background-color: #6b3636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
