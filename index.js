@@ -1,6 +1,6 @@
 function addTask(){
-    var taskInput = document.getElementById("taskinput");
-    var taskList = document.getElementById("tasklist");
+    var taskInput = document.getElementById("taskInput");
+    var taskList = document.getElementById("taskList");
 
     //this condition control the empty string
       if(!taskInput.value.trim()){
